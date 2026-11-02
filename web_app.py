@@ -2,10 +2,8 @@ import streamlit as st
 import json
 import random
 import os
-from dotenv import load_dotenv
 from openai import OpenAI
 
-load_dotenv()
 
 # Инициализация клиента Groq
 client = OpenAI(
